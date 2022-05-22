@@ -96,4 +96,53 @@ body {
 /* Footer */
 .under {
     grid-area: footer;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.footer-main {
+    background: #0b090a;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.footer-main-logo {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.footer-main-menu {
+    margin-left: 5rem;
+    display: flex;
+    align-items: space-around;
+}
+
+.footer-main-menu-list {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-right: 7rem;
+}
+
+.footer-main-menu-list > h3 {
+    margin-left: 2.5rem;
+}
+
+.footer-main-menu-list li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-main-images {
+    display: flex;
+    align-items: center;
+    margin-left: 15rem;
+}
+
+.footer-main-image {
+    width: 25%;
+    height: 25%;
+    padding: 1rem;
 }
